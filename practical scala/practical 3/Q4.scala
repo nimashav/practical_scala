@@ -8,7 +8,7 @@
     println("Enter a list of integers separated by spaces:")
     val input=readLine()
 
-    val numbers=input.split("").map(_.toInt).toList
+    val numbers=input.split(" ").map(_.toInt).toList
 
     val evenSum=sumEvenNumbers(numbers)
 
